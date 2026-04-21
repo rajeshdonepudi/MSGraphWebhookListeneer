@@ -4,7 +4,7 @@ using MSGraphWebhookListeneer.Models;
 namespace MSGraphWebhookListeneer.Controllers
 {
     [ApiController]
-    [Route("api/notifications")]
+    [Route("api/listener")]
     public class GraphNotificationController : ControllerBase
     {
         private readonly ILogger<GraphNotificationController> _logger;
